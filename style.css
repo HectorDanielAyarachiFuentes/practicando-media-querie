@@ -1,0 +1,133 @@
+/* Estilos generales */
+body {
+  font-family: 'Poppins', sans-serif;
+ 
+}
+/* Estilos del main*/
+
+main {
+    margin-left: 120px;
+    margin-right: 9px;
+    margin-top: 40px;
+}
+.titulos {
+    text-align: center;
+}
+.texto {
+    text-align: justify;
+}
+
+
+
+
+/* Estilos de encabezado y navegación */
+header {
+  background-color: #00425A;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Cambio a dirección de columna */
+  justify-content: flex-start; /* Alineación al inicio */
+  align-items: flex-start; /* Alineación al inicio */
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0; /* Ocupar todo el espacio vertical */
+  z-index: 999;
+  width: 80px; /* Ancho de la barra lateral */
+	
+}
+
+nav a {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  color: #EFF5F5;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mini-nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mini-nav a {
+  color: #EFF5F5;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Estilos del pie de página */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FC7300;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px; /* Ajusta el tamaño de fuente según sea necesario */
+  z-index: 20; /* Asegura que el footer esté por encima del header */
+}
+
+
+/* Media query para pantallas de 320px de ancho (celulares y formatos similares) */
+@media (max-width: 320px) {
+  body {
+    margin-top: 20px;
+  }
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2f0b84;
+    z-index: 999;
+    height: 220px; /* Ajusta esta altura según tus necesidades */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+  }
+
+  main {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 261px;
+  }
+}
+
+
+/* Media query para pantallas con ancho entre 320px y 900px (celulares y formatos similares) */
+@media (min-width: 320px) and (max-width: 900px) {
+  body {
+    margin-top: 20px;
+  }
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    z-index: 999;
+    height: 220px; /* Ajusta esta altura según tus necesidades */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+  }
+
+  main {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 261px;
+  }
+}
+
+  
