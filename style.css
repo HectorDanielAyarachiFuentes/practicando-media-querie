@@ -105,8 +105,8 @@ footer {
 }
 
 
-/* Media query para pantallas con ancho entre 320px y 900px (celulares y formatos similares) */
-@media (min-width: 320px) and (max-width: 900px) {
+/* Media query para pantallas con ancho entre 321px y 900px (celulares y formatos similares) */
+@media (min-width: 321px) and (max-width: 900px) {
   body {
     margin-top: 20px;
   }
