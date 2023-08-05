@@ -102,32 +102,33 @@ footer {
 /* Media query para pantallas de 320px de ancho (celulares y formatos similares) */
 @media (max-width: 320px) {
   body {
-    margin-top: 20px;
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+
   }
 
   header {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
+    margin-left: -20px;
     background-color: #2f0b84;
     z-index: 999;
     height: 170px;
-    /* Ajusta esta altura según tus necesidades */
     justify-content: center;
-    /* Centrar horizontalmente */
     align-items: center;
-    /* Centrar verticalmente */
   }
 
   main {
-    margin-left: 20px;
-    margin-right: 20px;
+
+    margin-left: -10px;
+    margin-right: -10px;
     margin-top: 200px;
     margin-bottom: 40px;
-    /*para que baje main*/
 
   }
+
+
 }
 
 
@@ -139,17 +140,13 @@ footer {
 
   header {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
+    margin-left: -20px;
     background-color: blue;
     z-index: 999;
     height: 170px;
-    /* Ajusta esta altura según tus necesidades */
     justify-content: center;
-    /* Centrar horizontalmente */
     align-items: center;
-    /* Centrar verticalmente */
   }
 
   main {
