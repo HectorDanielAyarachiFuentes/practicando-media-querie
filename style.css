@@ -1,20 +1,32 @@
 /* Estilos generales */
 body {
   font-family: 'Poppins', sans-serif;
- 
+
 }
+
 /* Estilos del main*/
 
 main {
-    margin-left: 120px;
-    margin-right: 9px;
-    margin-top: 40px;
+  margin-left: 120px;
+  margin-right: 9px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  /*para que baje main*/
+
 }
+
 .titulos {
-    text-align: center;
+  text-align: center;
+  margin: 20px;
+  /* Agregar margen en la parte inferior del título */
+
 }
+
 .texto {
-    text-align: justify;
+  text-align: justify;
+  margin: 20px;
+  /* Agregar margen en la parte inferior del título */
+
 }
 
 
@@ -26,16 +38,22 @@ header {
   color: #fff;
   padding: 10px;
   display: flex;
-  flex-direction: column; /* Cambio a dirección de columna */
-  justify-content: flex-start; /* Alineación al inicio */
-  align-items: flex-start; /* Alineación al inicio */
+  flex-direction: column;
+  /* Cambio a dirección de columna */
+  justify-content: flex-start;
+  /* Alineación al inicio */
+  align-items: flex-start;
+  /* Alineación al inicio */
   position: fixed;
   top: 0;
   left: 0;
-  bottom: 0; /* Ocupar todo el espacio vertical */
+  bottom: 0;
+  /* Ocupar todo el espacio vertical */
   z-index: 999;
-  width: 80px; /* Ancho de la barra lateral */
-	
+  width: 80px;
+  /* Ancho de la barra lateral */
+
+
 }
 
 nav a {
@@ -74,8 +92,10 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
-  font-size: 14px; /* Ajusta el tamaño de fuente según sea necesario */
-  z-index: 20; /* Asegura que el footer esté por encima del header */
+  font-size: 14px;
+  /* Ajusta el tamaño de fuente según sea necesario */
+  z-index: 20;
+  /* Asegura que el footer esté por encima del header */
 }
 
 
@@ -92,15 +112,21 @@ footer {
     width: 100%;
     background-color: #2f0b84;
     z-index: 999;
-    height: 220px; /* Ajusta esta altura según tus necesidades */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
+    height: 170px;
+    /* Ajusta esta altura según tus necesidades */
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
   }
 
   main {
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 261px;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    /*para que baje main*/
+
   }
 }
 
@@ -118,16 +144,21 @@ footer {
     width: 100%;
     background-color: blue;
     z-index: 999;
-    height: 220px; /* Ajusta esta altura según tus necesidades */
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
+    height: 170px;
+    /* Ajusta esta altura según tus necesidades */
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
   }
 
   main {
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 261px;
+    margin-top: 200px;
+    /*para que suba el main*/
+    margin-bottom: 40px;
+    /*para que baje main*/
   }
-}
 
-  
+}
